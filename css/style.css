@@ -177,6 +177,15 @@ strong{color:var(--ink);font-weight:600}
 .footer__brand img{border-radius:7px}
 .footer__mock{font-size:.75rem;color:#5E5E68}
 
+/* urgency label */
+.slots{display:flex;align-items:center;gap:7px;margin-top:6px;font-family:var(--head);font-size:.7rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--red);line-height:1.2}
+.slots__dot{width:6px;height:6px;border-radius:50%;background:var(--red);box-shadow:0 0 0 3px rgba(211,47,58,.15);flex:none}
+.price-inline__main{display:flex;flex-direction:column}
+.price-inline{align-items:flex-start}
+.price-inline__regular,.price-inline .badge{margin-top:8px}
+.price-card__price .slots{margin-top:10px}
+.mobile-bar__info .slots{margin-top:3px;font-size:.62rem}
+
 /* mobile bar + lightbox */
 .mobile-bar{display:none}
 .lightbox{position:fixed;inset:0;z-index:100;background:rgba(8,8,10,.88);display:grid;place-items:center;padding:24px}
@@ -216,6 +225,8 @@ strong{color:var(--ink);font-weight:600}
   .hero__actions{flex-direction:column}
   .hero__actions .btn{width:100%}
   .price-inline__sale{font-size:1.5rem}
+  .price-inline{gap:6px 14px}
+  .price-inline .badge{order:-1;margin:0 100% 6px 0}
   .price-card__price{flex-direction:column;align-items:flex-start}
   .price-card__was{text-align:left}
   .hero__media::before{display:none}
