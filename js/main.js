@@ -4,10 +4,10 @@
   nav.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){nav.classList.remove('is-open');toggle.setAttribute('aria-expanded','false')})});
 
   var captions={
-    ivy:'Meet <strong>Miss Ivy</strong>, hindi pa niya natapos ang course pero na-hire siya agad sa inapplayan niyang Work-from-home job at kumikita na ng P35,000+.',
-    heidee:'Ito naman si <strong>Miss Heidee</strong>, na-hire agad sa isang Full-Time at isang Part-Time Job pagkatapos niyang matapos ang SMM Course.',
-    aubrey:'"KUNG HINDI TALAGA AKO NAG-ENROLL, HINDI TALAGA AKO MAHA-HIRE AS A SOCIAL MEDIA MANAGER!" — <strong>Miss Aubrey</strong>',
-    rhed:'"Ito po yung lucky charm kasi detailed po lahat." — <strong>Miss Rhed</strong>'
+    ivy:'Meet <strong>Miss Ivy</strong>. Hindi pa niya natatapos ang course, pero na-hire na siya agad sa work-from-home job na in-applyan niya, at kumikita na siya ng P35,000+.',
+    heidee:'Ito naman si <strong>Miss Heidee</strong>. Na-hire agad siya sa isang full-time at isang part-time job pagkatapos niyang matapos ang SMM Course.',
+    aubrey:'“Kung hindi talaga ako nag-enroll, hindi talaga ako maha-hire as a Social Media Manager!” — <strong>Miss Aubrey</strong>',
+    rhed:'“Ito po yung lucky charm, kasi detailed po lahat.” — <strong>Miss Rhed</strong>'
   };
   var player=document.getElementById('player'),cap=document.getElementById('playerCaption');
   var items=[].slice.call(document.querySelectorAll('.playlist__item'));
