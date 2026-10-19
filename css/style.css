@@ -240,3 +240,4 @@ strong{color:var(--ink);font-weight:600}
   .mobile-bar s{color:var(--muted);font-size:.8rem}
   .footer{padding-bottom:96px}
 }
+.nw{white-space:nowrap}
